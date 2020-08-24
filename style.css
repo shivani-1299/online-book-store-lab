@@ -1,0 +1,81 @@
+
+ *
+{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url('book bar image.jpg');
+	background-size: cover;
+	background position: center;
+	
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background: brown;
+	text-align: center;
+}
+.menu-bar ul
+{
+	color:white;
+	display: inline-flex;
+	list-style: none;
+}
+.menu-bar ul li
+{
+	width: 150px;
+	margin: 20px;
+	padding: 20px;
+}
+.new ,.menu-bar ul li:hover
+{
+	background: #F0E1B9FF;
+	border-radius: 3px;
+}
+.left
+{
+ 
+   width: 45%;
+   float:left;
+   padding: 80px;
+
+}
+.right
+{
+ 
+   width: 45%;
+   float:left;
+   padding: 80px;
+
+}
+.hello
+{
+	color:red;
+	font-size: 100%
+}
+.ras{
+	
+	width: 1200px;
+	height: 600px;
+	object-fit: cover;
+	padding: 100px;
+}
+.er
+{
+	color: #614a00;
+	font-style: italic;
+	text-align: center;
+	background-color: #ffc30b;
+	font-size: 40px;
+	height: 50%;
+}
+.last
+{
+	background-color: #e4cd05;
+	text-align: center;
+	color: green;
+}
+
